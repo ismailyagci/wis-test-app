@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-  package="com.wistestapp">
+  package="com.wistestapp" xmlns:tools="http://schemas.android.com/tools">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -15,11 +15,13 @@
             android:name="com.google.firebase.messaging.default_notification_channel_id"
             android:value="default_notification_channel_id" 
             tools:replace="android:value"/>
-             <uses-library
+      <uses-library
             android:name="org.apache.http.legacy"
             android:required="false"></uses-library>
        <service
-      android:name="webinstats.android_wis.WebinstatsMessagingService">
+      android:name="webinstats.android_wis.WebinstatsMessagingService"
+      android:exported="true"
+      >
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>

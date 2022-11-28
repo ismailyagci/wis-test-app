@@ -5396,10 +5396,12 @@ react-native-gradle-plugin@^0.0.6:
   resolved "https://registry.yarnpkg.com/react-native-gradle-plugin/-/react-native-gradle-plugin-0.0.6.tgz#b61a9234ad2f61430937911003cddd7e15c72b45"
   integrity sha512-eIlgtsmDp1jLC24dRn43hB3kEcZVqx6DUQbR0N1ABXGnMEafm9I3V3dUUeD1vh+Dy5WqijSoEwLNUPLgu5zDMg==
 
-react-native-react-wis@2.1.9:
-  version "2.1.9"
-  resolved "https://registry.yarnpkg.com/react-native-react-wis/-/react-native-react-wis-2.1.9.tgz#63b3a2b26b040d5f698249dc17978220d942c5d7"
-  integrity sha512-uJ2WBDK+/ZWz2wzfgxIcr5+iWjDV1uNrSAGQzdUzKV6YUiEa0koGx8mm5WOcIJdpb+GEm+Ztkn+rZ4WSCj2PYA==
+react-native-react-wis@2.2.4:
+  version "2.2.4"
+  resolved "https://registry.yarnpkg.com/react-native-react-wis/-/react-native-react-wis-2.2.4.tgz#b3f4668f52f07eddd2cd51ab06b7f7187e9253fd"
+  integrity sha512-vEPKLXVI+Kd57PzT3ag5/a2ZkbDmP5dopwx/Wz/ZB1af7wyeAyx3rPRTo6nI2Q3LV3lesBq6NBF+LcBwtiOFzw==
+  dependencies:
+    user "^0.0.0"
 
 react-native@0.68.2:
   version "0.68.2"
@@ -6420,6 +6422,11 @@ use@^3.1.0:
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/use/-/use-3.1.1.tgz#d50c8cac79a19fbc20f2911f56eb973f4e10070f"
   integrity sha512-cwESVXlO3url9YWlFW/TA9cshCEhtu7IKJ/p5soJ/gGpj7vbvFrAY/eIioQ6Dw23KjZhYgiIo8HOs1nQ2vr/oQ==
+
+user@^0.0.0:
+  version "0.0.0"
+  resolved "https://registry.yarnpkg.com/user/-/user-0.0.0.tgz#f27f1b23fc511f2a8efa40db55cfba123824e02a"
+  integrity sha512-eRNM5isOvr6aEFAGi1CqAkmLkYxW2NJ5ThhbD+6IJXYKM1mo7Gtxx4mQIveHz/5K3p/SVnlW9k17ETn+QAu8IQ==
 
 util-deprecate@^1.0.1, util-deprecate@~1.0.1:
   version "1.0.2"

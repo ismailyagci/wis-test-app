@@ -6,6 +6,7 @@ import com.facebook.react.ReactRootView;
 import android.net.Uri;
 import android.content.Intent;
 import webinstats.android_wis.Webinstats;
+import android.os.Bundle;
 
 public class MainActivity extends ReactActivity {
      @Override

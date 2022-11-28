@@ -260,10 +260,9 @@ android {
 }
 
 dependencies {
-    implementation 'com.github.WebInStats:android_wis:3.0.36@aar'
-    implementation project(':android_wis')
-  implementation 'com.google.firebase:firebase-messaging:17.3.4'
-  implementation 'com.google.firebase:firebase-auth:16.0.5'
+    implementation 'com.github.WebInStats:android_wis:3.0.43@aar'
+    implementation 'com.google.firebase:firebase-messaging:17.3.4'
+    implementation 'com.google.firebase:firebase-auth:16.0.5'
     implementation fileTree(dir: "libs", include: ["*.jar"])
 
     //noinspection GradleDynamicVersion
