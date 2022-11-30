@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-(echo ""; echo "org.gradle.java.home=/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home/") >> $APPCENTER_SOURCE_DIRECTORY/gradle.properties
+(echo ""; echo "org.gradle.java.home=${JAVA_HOME_11_X64}") >> $APPCENTER_SOURCE_DIRECTORY/android/gradle.properties
