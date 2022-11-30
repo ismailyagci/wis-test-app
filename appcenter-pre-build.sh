@@ -1,2 +1,2 @@
-#!/bin/bashcd ${APPCENTER_SOURCE_DIRECTORY}echo “BASE_URL=${BASE_URL}” > .env
-echo JAVA_HOME=$(JAVA_HOME_11_X64)” >> .env
+#!/usr/bin/env bash
+(echo ""; echo "org.gradle.java.home=/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home/") >> $APPCENTER_SOURCE_DIRECTORY/gradle.properties
