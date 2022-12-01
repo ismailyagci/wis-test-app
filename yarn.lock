@@ -5396,10 +5396,10 @@ react-native-gradle-plugin@^0.0.6:
   resolved "https://registry.yarnpkg.com/react-native-gradle-plugin/-/react-native-gradle-plugin-0.0.6.tgz#b61a9234ad2f61430937911003cddd7e15c72b45"
   integrity sha512-eIlgtsmDp1jLC24dRn43hB3kEcZVqx6DUQbR0N1ABXGnMEafm9I3V3dUUeD1vh+Dy5WqijSoEwLNUPLgu5zDMg==
 
-react-native-react-wis@2.2.4:
-  version "2.2.4"
-  resolved "https://registry.yarnpkg.com/react-native-react-wis/-/react-native-react-wis-2.2.4.tgz#b3f4668f52f07eddd2cd51ab06b7f7187e9253fd"
-  integrity sha512-vEPKLXVI+Kd57PzT3ag5/a2ZkbDmP5dopwx/Wz/ZB1af7wyeAyx3rPRTo6nI2Q3LV3lesBq6NBF+LcBwtiOFzw==
+react-native-react-wis@2.2.5:
+  version "2.2.5"
+  resolved "https://registry.yarnpkg.com/react-native-react-wis/-/react-native-react-wis-2.2.5.tgz#f50700810063293902e9923b38d8405e0eacd315"
+  integrity sha512-8okv4xu3XIzLbbFdCVtcDbG1z+LAq3z8MceEuzBDdZ1y1VBS1oMuGmzmU6zwd+HOsIdNFxtCvKsVqvjIGsBWgQ==
   dependencies:
     user "^0.0.0"
 
